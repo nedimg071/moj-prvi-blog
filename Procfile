@@ -1,1 +1,1 @@
-web: gunicorn blogNGsite/wsgi.py --log-file -
+web: gunicorn mysite.wsgi:application
